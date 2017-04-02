@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>signup</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <ion-label> Email: </ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label> Password: </ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button color="dark" class="button button-block button-stable">
+        Sign-up !!
+      </button>
+      <p> Already have an account !!! <a (click)="goToLogin()"> Login </a> </p>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

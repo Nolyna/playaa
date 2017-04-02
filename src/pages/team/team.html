@@ -1,0 +1,40 @@
+
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> My team </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      Membership
+    </ion-card-header>
+
+    <ion-list>
+
+      <button ion-item>
+        <ion-icon  name="basketball" item-left></ion-icon>
+        Basketball
+        <button ion-button clear item-right class="button button-block button-stable" (click)="goToDetails()"> View </button>
+      </button>
+
+      <button ion-item>
+        <ion-icon name="walk" item-left></ion-icon>
+        Running
+        <button ion-button clear item-right class="button button-block button-stable" (click)="goToDetails()">View</button>
+      </button>
+
+      <button ion-item>
+        <ion-icon name="bicycle" item-left class="button button-block button-stable" (click)="goToDetails()"></ion-icon>
+        Bicycle
+        <button ion-button clear item-right>View</button>
+      </button>
+
+    </ion-list>
+  </ion-card>
+
+</ion-content>
